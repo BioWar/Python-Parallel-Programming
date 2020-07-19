@@ -1,5 +1,6 @@
 name: PPP
 channels:
+  - anaconda
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
@@ -17,6 +18,9 @@ dependencies:
   - mkl-service=2.3.0=py38he904b0f_0
   - mkl_fft=1.1.0=py38h23d657b_0
   - mkl_random=1.1.1=py38h0573a6f_0
+  - mpi=1.0=mpich
+  - mpi4py=3.0.3=py38h028fd6f_0
+  - mpich=3.3.2=hc856adb_0
   - ncurses=6.2=he6710b0_1
   - numpy=1.18.5=py38ha1c710e_0
   - numpy-base=1.18.5=py38hde5b4d6_0
@@ -32,3 +36,4 @@ dependencies:
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
 prefix: /home/biowar/anaconda3/envs/PPP
+
